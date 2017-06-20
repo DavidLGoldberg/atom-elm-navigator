@@ -388,6 +388,7 @@ tagView basePath tag =
         [ div [ class "list-item-wrapper" ]
             [ tagTypeView tag.type_
             , span [ class "symbol-name" ] [ text tag.symbol ]
+            , span [ class "file-name" ] [ text <| " (" ++ String.Extra.rightOfBack "/" tag.file.filePath ++ ")" ]
             ]
         ]
 

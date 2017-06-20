@@ -95,6 +95,13 @@
   font-weight: 700  !important;
 }
 
+.elm-navigator .file-name {
+  font-size: 10px;
+  font-weight: 400  !important;
+  font-style: italic;
+  margin-left: 6px;
+}
+
 .esn-tag-type-filter-item {
   width: 15px;
   height: 15px;
